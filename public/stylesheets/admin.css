@@ -1,0 +1,87 @@
+.admin-header{
+	background: #fff;
+	padding: 20px 0;
+	border-bottom: 1px solid rgb(226,226,226);
+}
+
+.sidebar{
+	width: 230px;
+	margin-left: 10%;
+	margin-right: 15px;
+	background: #f7f7f7;
+	border-radius: 4px;
+	margin-top: 20px;
+	float: left;
+	border:1px solid rgb(226,226,226);
+}
+
+.sidebar h4{
+	padding:10px;
+}
+
+.sidebar ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+.sidebar li {
+	background: #333;
+}
+
+.sidebar ul > li >a{
+	display: inline-block;
+	width: 100%;
+	color: #fff;
+	padding: 15px;	 
+}
+
+.sidebar ul > li:hover{
+	background: #000;
+	cursor: pointer;
+}
+
+.papper{
+	background: #fff;
+	box-shadow: 0px 1px 2px rgb(226,226,226);
+	padding:10px;
+	margin-top: 20px;
+	margin-left: 230px;
+	margin-right: 10%;
+	overflow: auto;
+	border-radius: 4px;
+}
+
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,td{
+	border:1px solid #ddd;
+	padding:10px;
+}
+
+.btn-edit{
+	background: #f39c12;
+	padding:8px;
+	color: #fff;
+}
+
+.btn-delete{
+	background: #c9312c;
+	padding:8px;
+	color: #fff;
+}
+
+input, select, textarea{
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.btn-save{
+	border:0;
+	background: #18a085;
+	color: #fff;
+	cursor: pointer;
+}
